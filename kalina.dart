@@ -3,7 +3,7 @@ import 'dart:io';
 // Classe principal do jogo
 class BatalhaNaval {
 
-  // Tamanho do tabuleiro (16x16)
+  // Define o tamanho do tabuleiro (16x16)
   int tamanho = 16;
 
   // Tabuleiro onde ficam os navios
@@ -24,7 +24,7 @@ class BatalhaNaval {
         List.generate(tamanho, (_) => List.generate(tamanho, (_) => "[ ]"));
   }
 
-  // Função para mostrar o tabuleiro de tiros na tela
+  // Função que mostra o mostra o tabuleiro de tiros na tela
   void exibirTabuleiroTiros() {
 
     print("\nTABULEIRO:");
